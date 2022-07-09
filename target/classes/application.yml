@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+info:
+  app:
+    name: HW_4
+    description: Made by Oleh Maliarchuk
+    version: 1.0.0
